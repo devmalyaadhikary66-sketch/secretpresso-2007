@@ -1,0 +1,35 @@
+[
+  {
+    "id": "hero-1",
+    "title": "Good Coffee.\nGreat Surprise.",
+    "subtitle": "MORE THAN JUST COFFEE",
+    "description": "Every cup is a new adventure. Enjoy premium coffee and discover a collectible toy hidden inside.",
+    "buttonText": "Explore Our Menu",
+    "buttonLink": "#coffee-menu",
+    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1920&q=85",
+    "isActive": true,
+    "displayOrder": 1
+  },
+  {
+    "id": "hero-2",
+    "title": "Our Signature\nTiramisu",
+    "subtitle": "SWEET INDULGENCE",
+    "description": "Layers of rich mascarpone, coffee-soaked biscuits and a hint of cocoa. A timeless classic, now part of your SECRETpresso experience.",
+    "buttonText": "Order Now",
+    "buttonLink": "#tiramisu-section",
+    "imageUrl": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=1920&q=85",
+    "isActive": true,
+    "displayOrder": 2
+  },
+  {
+    "id": "hero-3",
+    "title": "What's Inside?\nCollect Them All.",
+    "subtitle": "THE SURPRISE",
+    "description": "Every cup hides a collectible toy or mini figurine. From cute characters to special editions — collect them all!",
+    "buttonText": "Discover The Surprise",
+    "buttonLink": "#whats-inside",
+    "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1920&q=85",
+    "isActive": true,
+    "displayOrder": 3
+  }
+]

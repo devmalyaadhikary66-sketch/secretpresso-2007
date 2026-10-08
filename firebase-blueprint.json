@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "MediaItem": {
+      "title": "MediaItem",
+      "description": "Represents an uploaded media asset (image, video) stored in Firebase Storage with metadata",
+      "type": "object",
+      "properties": {
+        "mediaId": { "type": "string", "description": "Unique identifier for the media item" },
+        "storagePath": { "type": "string", "description": "Path in Firebase Storage" },
+        "downloadURL": { "type": "string", "description": "Public or signed download URL" },
+        "fileName": { "type": "string", "description": "Original file name" },
+        "contentType": { "type": "string", "description": "MIME type (e.g. image/jpeg, image/png)" },
+        "fileSize": { "type": "number", "description": "File size in bytes" },
+        "mediaType": { "type": "string", "enum": ["hero", "banner", "product", "collection", "promotional", "video"], "description": "Categorization of media" },
+        "targetId": { "type": "string", "description": "Associated entity ID (e.g. productId or banner sectionKey)" },
+        "altText": { "type": "string", "description": "Accessibility description" },
+        "isPrimary": { "type": "boolean", "description": "Whether this is the primary asset for the entity" },
+        "order": { "type": "number", "description": "Display order index" },
+        "isActive": { "type": "boolean", "description": "Whether this media item is active" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Creation timestamp" },
+        "updatedAt": { "type": "string", "format": "date-time", "description": "Last update timestamp" }
+      },
+      "required": ["mediaId", "downloadURL", "mediaType", "createdAt"]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "Product item in the catalog",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "sku": { "type": "string" },
+        "category": { "type": "string" },
+        "price": { "type": "number" },
+        "salePrice": { "type": "number" },
+        "imageUrl": { "type": "string" },
+        "additionalImages": { "type": "array" },
+        "isAvailable": { "type": "boolean" }
+      },
+      "required": ["name", "price"]
+    },
+    "WebsiteSection": {
+      "title": "WebsiteSection",
+      "description": "Website CMS section configuration",
+      "type": "object",
+      "properties": {
+        "sectionKey": { "type": "string" },
+        "heading": { "type": "string" },
+        "imageUrl": { "type": "string" }
+      },
+      "required": ["sectionKey"]
+    }
+  },
+  "firestore": {
+    "/media/{mediaId}": {
+      "schema": "MediaItem",
+      "description": "Global persistent media library assets"
+    },
+    "/products/{productId}": {
+      "schema": "Product",
+      "description": "Storefront products and menu items"
+    },
+    "/sections/{sectionKey}": {
+      "schema": "WebsiteSection",
+      "description": "Website CMS banners and sections"
+    }
+  }
+}

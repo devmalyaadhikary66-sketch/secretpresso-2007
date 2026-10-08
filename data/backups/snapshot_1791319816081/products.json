@@ -1,0 +1,654 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Classic Americano",
+    "sku": "SP-AME-001",
+    "category": "Espresso & Hot",
+    "description": "Extracted with our signature double espresso and hot mineral-balanced water. Bold, clean, and velvety with dense caramel crema.",
+    "shortDescription": "Bold / Smooth / Timeless",
+    "price": 149,
+    "salePrice": 149,
+    "costPrice": 28,
+    "taxPercent": 5,
+    "stock": 150,
+    "lowStockThreshold": 20,
+    "weight": "250ml",
+    "ingredients": [
+      "Double Ristretto Espresso",
+      "Triple Filtered Alkaline Water"
+    ],
+    "allergens": [
+      "None"
+    ],
+    "preparationTimeMinutes": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80",
+    "badge": "Best Seller",
+    "tags": [
+      "Americano",
+      "Black Coffee",
+      "Bold",
+      "Espresso"
+    ],
+    "seoTitle": "Classic Americano | SECRETpresso",
+    "seoDescription": "Handcrafted bold Americano with a secret collectible inside every cup.",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-2",
+    "name": "Vanilla Latte",
+    "sku": "SP-LAT-002",
+    "category": "Espresso & Hot",
+    "description": "Real cured Madagascar vanilla bean infused into silky steamed microfoam milk and poured over double velvet espresso.",
+    "shortDescription": "Creamy / Sweet / Classic",
+    "price": 179,
+    "salePrice": 179,
+    "costPrice": 42,
+    "taxPercent": 5,
+    "stock": 95,
+    "lowStockThreshold": 15,
+    "weight": "300ml",
+    "ingredients": [
+      "Double Espresso",
+      "Steamed Whole Milk",
+      "Madagascar Vanilla Bean Caviar"
+    ],
+    "allergens": [
+      "Dairy"
+    ],
+    "preparationTimeMinutes": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80",
+    "badge": "Chef Choice",
+    "tags": [
+      "Vanilla",
+      "Latte",
+      "Creamy",
+      "Sweet"
+    ],
+    "seoTitle": "Vanilla Latte | SECRETpresso",
+    "seoDescription": "Steamed velvety milk with authentic cured Madagascar vanilla bean.",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-3",
+    "name": "Caramel Latte",
+    "sku": "SP-CAR-003",
+    "category": "Espresso & Hot",
+    "description": "Slow-cooked artisanal salted golden caramel swirled with rich double ristretto and silky steamed microfoam.",
+    "shortDescription": "Rich / Buttery / Indulgent",
+    "price": 189,
+    "salePrice": 189,
+    "costPrice": 45,
+    "taxPercent": 5,
+    "stock": 80,
+    "lowStockThreshold": 15,
+    "weight": "300ml",
+    "ingredients": [
+      "Double Espresso",
+      "Steamed Milk",
+      "Salted Butter Caramel"
+    ],
+    "allergens": [
+      "Dairy"
+    ],
+    "preparationTimeMinutes": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1593443320739-77f74939d0da?auto=format&fit=crop&w=800&q=80",
+    "badge": "Best Seller",
+    "tags": [
+      "Caramel",
+      "Latte",
+      "Rich",
+      "Sweet"
+    ],
+    "seoTitle": "Caramel Latte | SECRETpresso",
+    "seoDescription": "Rich buttery caramel latte crafted with specialty Arabica espresso.",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-4",
+    "name": "Mocha",
+    "sku": "SP-MOC-004",
+    "category": "Espresso & Hot",
+    "description": "Single-estate 64% melted dark Guayaquil chocolate whisked with espresso and velvety textured microfoam, dusted with Dutch cocoa.",
+    "shortDescription": "Chocolatey / Bold / Cozy",
+    "price": 179,
+    "salePrice": 179,
+    "costPrice": 48,
+    "taxPercent": 5,
+    "stock": 75,
+    "lowStockThreshold": 12,
+    "weight": "300ml",
+    "ingredients": [
+      "Espresso",
+      "Dark Chocolate Ganache",
+      "Steamed Milk",
+      "Valrhona Cocoa"
+    ],
+    "allergens": [
+      "Dairy"
+    ],
+    "preparationTimeMinutes": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80",
+    "badge": "Chef Choice",
+    "tags": [
+      "Mocha",
+      "Chocolate",
+      "Espresso",
+      "Velvet"
+    ],
+    "seoTitle": "Artisanal Mocha | SECRETpresso",
+    "seoDescription": "Rich dark chocolate melted into bold double espresso.",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-5",
+    "name": "Hazelnut Latte",
+    "sku": "SP-HAZ-005",
+    "category": "Espresso & Hot",
+    "description": "Roasted Piedmont hazelnut butter dissolved smoothly into steamed milk and double shot espresso with toasted hazelnut aromas.",
+    "shortDescription": "Nutty / Smooth / Aromatic",
+    "price": 189,
+    "salePrice": 189,
+    "costPrice": 46,
+    "taxPercent": 5,
+    "stock": 85,
+    "lowStockThreshold": 15,
+    "weight": "300ml",
+    "ingredients": [
+      "Double Espresso",
+      "Steamed Milk",
+      "Piedmont Hazelnut Extract"
+    ],
+    "allergens": [
+      "Tree Nuts",
+      "Dairy"
+    ],
+    "preparationTimeMinutes": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80",
+    "badge": "Limited",
+    "tags": [
+      "Hazelnut",
+      "Latte",
+      "Nutty",
+      "Smooth"
+    ],
+    "seoTitle": "Hazelnut Latte | SECRETpresso",
+    "seoDescription": "Nutty, smooth, aromatic hazelnut latte with secret surprise figurine.",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-6",
+    "name": "Artisanal Venetian Secret Tiramisu",
+    "sku": "SP-TIR-001",
+    "category": "Signature Tiramisu",
+    "description": "Layered according to a guarded 1968 Treviso recipe. Savoiardi ladyfingers drenched in freshly pulled SECRETpresso ristretto, folded into velvety Italian mascarpone and dusted with 70% Grand Cru Valrhona cocoa.",
+    "shortDescription": "Authentic Italian mascarpone, espresso-soaked ladyfingers & dark Valrhona dusting.",
+    "price": 450,
+    "salePrice": 420,
+    "costPrice": 120,
+    "taxPercent": 5,
+    "stock": 24,
+    "lowStockThreshold": 10,
+    "weight": "220g Jar",
+    "ingredients": [
+      "Italian Mascarpone Cheese",
+      "Pasteurized Egg Yolks",
+      "Savoiardi Ladyfingers",
+      "SECRETpresso Ristretto",
+      "Valrhona Cocoa Powder"
+    ],
+    "allergens": [
+      "Dairy",
+      "Eggs",
+      "Gluten"
+    ],
+    "preparationTimeMinutes": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+    "badge": "Special Reserve",
+    "tags": [
+      "Tiramisu",
+      "Dessert",
+      "Italian",
+      "Mascarpone"
+    ],
+    "seoTitle": "Artisanal Venetian Secret Tiramisu | SECRETpresso",
+    "seoDescription": "Award-winning authentic Italian espresso tiramisu made fresh each morning.",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-bean-6",
+    "name": "SECRETpresso Gold Reserve Whole Bean (250g)",
+    "sku": "SP-BEAN-006",
+    "category": "Beans & Roast",
+    "description": "Our flagship espresso roast. 80% washed heirloom Arabica from Chikmagalur high elevations blended with 20% natural processed Ethiopian Yirgacheffe.",
+    "shortDescription": "Master roast whole beans. Medium-dark roast with cacao nibs and orange blossom.",
+    "price": 680,
+    "salePrice": 620,
+    "costPrice": 220,
+    "taxPercent": 5,
+    "stock": 5,
+    "lowStockThreshold": 10,
+    "weight": "250g Tin",
+    "ingredients": [
+      "100% Specialty Grade Whole Coffee Beans"
+    ],
+    "allergens": [
+      "None"
+    ],
+    "preparationTimeMinutes": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=800&q=80",
+    "badge": "Best Seller",
+    "tags": [
+      "Whole Beans",
+      "Fresh Roast",
+      "Tin Canister",
+      "Specialty"
+    ],
+    "seoTitle": "Gold Reserve Whole Beans (250g) | SECRETpresso",
+    "seoDescription": "Freshly roasted whole beans sealed in nitrogen-purged gold canisters.",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-7",
+    "name": "Affogato Al Tartufo Noir",
+    "sku": "SP-AFF-007",
+    "category": "Signature Tiramisu",
+    "description": "Artisanal Fior di Latte gelato crowned with roasted Sicilian almonds, served alongside a beaker of sizzling hot espresso with edible 24k gold leaf flakes.",
+    "shortDescription": "Fior di Latte gelato, sizzling espresso shot, roasted almonds & gold leaf.",
+    "price": 390,
+    "costPrice": 95,
+    "taxPercent": 5,
+    "stock": 18,
+    "lowStockThreshold": 8,
+    "weight": "180g",
+    "ingredients": [
+      "Fior di Latte Gelato",
+      "Double Espresso Shot",
+      "Sicilian Almonds",
+      "24k Gold Flakes"
+    ],
+    "allergens": [
+      "Dairy",
+      "Tree Nuts (Almonds)"
+    ],
+    "preparationTimeMinutes": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?auto=format&fit=crop&w=800&q=80",
+    "badge": "Special Reserve",
+    "tags": [
+      "Affogato",
+      "Gelato",
+      "Gold Flake",
+      "Dessert"
+    ],
+    "seoTitle": "Affogato Al Tartufo Noir | SECRETpresso",
+    "seoDescription": "Luxurious hot espresso poured over artisanal gelato with gold flakes.",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-8",
+    "name": "Matte Black Ceramic Barista Tumbler",
+    "sku": "SP-MERCH-008",
+    "category": "Collectibles & Merch",
+    "description": "Triple-wall vacuum insulated travel tumbler with ceramic inner coating that keeps espresso taste pristine without metallic aftertaste. Laser-etched SECRETpresso crest.",
+    "shortDescription": "Ceramic-lined 400ml vacuum tumbler with magnetic splash-proof lid.",
+    "price": 1450,
+    "costPrice": 580,
+    "taxPercent": 12,
+    "stock": 32,
+    "lowStockThreshold": 5,
+    "weight": "340g",
+    "ingredients": [
+      "18/8 Stainless Steel",
+      "TrueTaste Ceramic Coating",
+      "BPA-Free Tritan Lid"
+    ],
+    "allergens": [
+      "None"
+    ],
+    "preparationTimeMinutes": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+    "badge": "Limited",
+    "tags": [
+      "Merch",
+      "Tumbler",
+      "Collectible",
+      "Matte Black"
+    ],
+    "seoTitle": "Matte Black Ceramic Barista Tumbler | SECRETpresso",
+    "seoDescription": "Keep coffee piping hot for 6 hours with genuine ceramic taste purity.",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "isAvailable": true
+  },
+  {
+    "id": "prod-sw-2",
+    "name": "Chocolate Mousse",
+    "sku": "SP-SWT-002",
+    "category": "Bites & Indulgence",
+    "sectionId": "sec-bites-indulgence",
+    "description": "Silky, airy French chocolate mousse crafted with 70% dark Belgian ganache and fresh cream.",
+    "shortDescription": "70% Dark Belgian Ganache",
+    "price": 289,
+    "salePrice": 289,
+    "costPrice": 75,
+    "taxPercent": 5,
+    "stock": 40,
+    "lowStockThreshold": 8,
+    "weight": "160g",
+    "ingredients": [
+      "Dark Chocolate 70%",
+      "Whipped Cream",
+      "Vanilla Caviar"
+    ],
+    "allergens": [
+      "Dairy"
+    ],
+    "preparationTimeMinutes": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "badge": "Chef Choice",
+    "tags": [
+      "Chocolate",
+      "Mousse",
+      "Sweet"
+    ],
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "isAvailable": true,
+    "displayOrder": 1
+  },
+  {
+    "id": "prod-sw-3",
+    "name": "Chocolate Brownie",
+    "sku": "SP-SWT-003",
+    "category": "Bites & Indulgence",
+    "sectionId": "sec-bites-indulgence",
+    "description": "Dense, fudgy double-chocolate brownie baked with roasted California walnuts and molten dark chocolate chunks.",
+    "shortDescription": "Warm Fudgy Dark Chocolate & Walnut",
+    "price": 229,
+    "salePrice": 229,
+    "costPrice": 55,
+    "taxPercent": 5,
+    "stock": 60,
+    "lowStockThreshold": 12,
+    "weight": "150g",
+    "ingredients": [
+      "Dutch Cocoa",
+      "Dark Chocolate Chunks",
+      "Walnuts",
+      "Butter"
+    ],
+    "allergens": [
+      "Dairy",
+      "Gluten",
+      "Tree Nuts"
+    ],
+    "preparationTimeMinutes": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+    "badge": "Best Seller",
+    "tags": [
+      "Brownie",
+      "Fudge",
+      "Sweet"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "isAvailable": true,
+    "displayOrder": 2
+  },
+  {
+    "id": "prod-sw-7",
+    "name": "Donuts",
+    "sku": "SP-SWT-007",
+    "category": "Bites & Indulgence",
+    "sectionId": "sec-bites-indulgence",
+    "description": "Fluffy brioche donut ring hand-dipped in Madagascar vanilla bean glaze with espresso chocolate drizzle.",
+    "shortDescription": "Glazed Brioche Ring with Espresso Drizzle",
+    "price": 179,
+    "salePrice": 179,
+    "costPrice": 42,
+    "taxPercent": 5,
+    "stock": 55,
+    "lowStockThreshold": 10,
+    "weight": "120g",
+    "ingredients": [
+      "Brioche Dough",
+      "Madagascar Vanilla Glaze",
+      "Espresso Dark Drizzle"
+    ],
+    "allergens": [
+      "Dairy",
+      "Gluten",
+      "Eggs"
+    ],
+    "preparationTimeMinutes": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Donuts",
+      "Pastry",
+      "Sweet"
+    ],
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "isAvailable": true,
+    "displayOrder": 3
+  },
+  {
+    "id": "prod-sw-4",
+    "name": "Burger",
+    "sku": "SP-SAV-004",
+    "category": "Bites & Indulgence",
+    "sectionId": "sec-bites-indulgence",
+    "description": "Gourmet artisanal burger with aged cheddar, caramelized shallots, garlic aioli, and crisp brioche bun.",
+    "shortDescription": "Artisanal Cheddar & Brioche",
+    "price": 319,
+    "salePrice": 319,
+    "costPrice": 95,
+    "taxPercent": 5,
+    "stock": 35,
+    "lowStockThreshold": 8,
+    "weight": "280g",
+    "ingredients": [
+      "Gourmet Patty",
+      "Aged Cheddar",
+      "Caramelized Onion",
+      "Brioche Bun"
+    ],
+    "allergens": [
+      "Dairy",
+      "Gluten"
+    ],
+    "preparationTimeMinutes": 8,
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+    "badge": "Special Reserve",
+    "tags": [
+      "Burger",
+      "Savoury",
+      "Gourmet"
+    ],
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "isAvailable": true,
+    "displayOrder": 4
+  },
+  {
+    "id": "prod-sw-5",
+    "name": "French Fries",
+    "sku": "SP-SAV-005",
+    "category": "Bites & Indulgence",
+    "sectionId": "sec-bites-indulgence",
+    "description": "Hand-cut Russet potato fries double-blanched and fried to golden crispness, dusted with herb salt.",
+    "shortDescription": "Golden Hand-Cut Herb Fries",
+    "price": 169,
+    "salePrice": 169,
+    "costPrice": 35,
+    "taxPercent": 5,
+    "stock": 80,
+    "lowStockThreshold": 15,
+    "weight": "180g",
+    "ingredients": [
+      "Russet Potatoes",
+      "Sea Salt",
+      "Rosemary Dust"
+    ],
+    "allergens": [
+      "None"
+    ],
+    "preparationTimeMinutes": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1576107232684-1279f3908594?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Fries",
+      "Savoury",
+      "Crispy"
+    ],
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "isAvailable": true,
+    "displayOrder": 5
+  },
+  {
+    "id": "prod-sw-6",
+    "name": "Garlic Bread",
+    "sku": "SP-SAV-006",
+    "category": "Bites & Indulgence",
+    "sectionId": "sec-bites-indulgence",
+    "description": "Warm sourdough baguette slices steeped in slow-roasted garlic herb butter and melted mozzarella.",
+    "shortDescription": "Sourdough with Roasted Garlic Butter",
+    "price": 199,
+    "salePrice": 199,
+    "costPrice": 48,
+    "taxPercent": 5,
+    "stock": 45,
+    "lowStockThreshold": 10,
+    "weight": "170g",
+    "ingredients": [
+      "Sourdough Baguette",
+      "Roasted Garlic Butter",
+      "Mozzarella",
+      "Parsley"
+    ],
+    "allergens": [
+      "Dairy",
+      "Gluten"
+    ],
+    "preparationTimeMinutes": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Garlic Bread",
+      "Savoury",
+      "Baked"
+    ],
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "isAvailable": true,
+    "displayOrder": 6
+  },
+  {
+    "id": "prod-sw-8",
+    "name": "Chicken Sandwich",
+    "sku": "SP-SAV-008",
+    "category": "Bites & Indulgence",
+    "sectionId": "sec-bites-indulgence",
+    "description": "Crispy herb-crusted chicken fillet with dill pickle slaw, heirloom tomato, and Dijon mayo on toasted sourdough.",
+    "shortDescription": "Herb-Crusted Chicken & Dill Slaw",
+    "price": 299,
+    "salePrice": 299,
+    "costPrice": 85,
+    "taxPercent": 5,
+    "stock": 30,
+    "lowStockThreshold": 8,
+    "weight": "260g",
+    "ingredients": [
+      "Herb Chicken Breast",
+      "Dill Slaw",
+      "Dijon Aioli",
+      "Artisan Sourdough"
+    ],
+    "allergens": [
+      "Dairy",
+      "Gluten"
+    ],
+    "preparationTimeMinutes": 6,
+    "imageUrl": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=800&q=80",
+    "badge": "Chef Choice",
+    "tags": [
+      "Chicken",
+      "Sandwich",
+      "Savoury"
+    ],
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "isAvailable": true,
+    "displayOrder": 7
+  },
+  {
+    "id": "prod-sw-1",
+    "name": "Tiramisu",
+    "sku": "SP-SWT-001",
+    "category": "Bites & Indulgence",
+    "sectionId": "sec-bites-indulgence",
+    "description": "Authentic Venetian mascarpone layered with espresso-drenched Savoiardi biscuits and Valrhona cocoa.",
+    "shortDescription": "Venetian Mascarpone & Espresso",
+    "price": 349,
+    "salePrice": 349,
+    "costPrice": 90,
+    "taxPercent": 5,
+    "stock": 50,
+    "lowStockThreshold": 10,
+    "weight": "200g",
+    "ingredients": [
+      "Italian Mascarpone",
+      "Savoiardi Ladyfingers",
+      "SECRETpresso Ristretto",
+      "Valrhona Cocoa"
+    ],
+    "allergens": [
+      "Dairy",
+      "Gluten",
+      "Eggs"
+    ],
+    "preparationTimeMinutes": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+    "badge": "Best Seller",
+    "tags": [
+      "Tiramisu",
+      "Dessert",
+      "Sweet"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "isAvailable": true,
+    "displayOrder": 8
+  }
+]

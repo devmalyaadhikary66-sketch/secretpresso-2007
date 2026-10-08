@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cat-bites",
+    "name": "Bites & Indulgence",
+    "description": "Sweet cravings, savoury favourites. Decadent confections, warm desserts, and gourmet savouries.",
+    "categoryType": "Food",
+    "displayOrder": 1,
+    "isVisible": true
+  },
+  {
+    "id": "cat-desserts",
+    "name": "Desserts",
+    "description": "Artisanal sweet creations, handcrafted mousse, rich brownies, and Venetian tiramisu.",
+    "categoryType": "Food",
+    "displayOrder": 2,
+    "isVisible": true
+  },
+  {
+    "id": "cat-quick-bites",
+    "name": "Quick Bites",
+    "description": "Gourmet hot brioche burgers, herb fries, and garlic bread.",
+    "categoryType": "Food",
+    "displayOrder": 3,
+    "isVisible": true
+  },
+  {
+    "id": "cat-bakery",
+    "name": "Bakery",
+    "description": "Artisanal donuts, morning bakes, and freshly toasted sourdough sandwiches.",
+    "categoryType": "Food",
+    "displayOrder": 4,
+    "isVisible": true
+  },
+  {
+    "id": "cat-seasonal",
+    "name": "Seasonal",
+    "description": "Limited-edition seasonal delicacies crafted to accompany seasonal brews.",
+    "categoryType": "Food",
+    "displayOrder": 5,
+    "isVisible": true
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "SECRETpresso Admin & Control Center",
+  "description": "Professional enterprise admin dashboard, kitchen panel, inventory, CMS, live order manager, and store control for SECRETpresso luxury coffee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

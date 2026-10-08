@@ -1,0 +1,47 @@
+{
+  "backupId": "snapshot_1791319816081",
+  "createdAt": "2026-10-06T20:50:16.083Z",
+  "type": "manual_snapshot",
+  "counts": {
+    "products": 17,
+    "categories": 5,
+    "media": 27,
+    "banners": 2,
+    "heroSlides": 3,
+    "sections": 7
+  },
+  "totalBytes": 52202,
+  "files": [
+    {
+      "name": "products.json",
+      "size": 19007,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "categories.json",
+      "size": 2274,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "media.json",
+      "size": 19367,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "banners.json",
+      "size": 3376,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "hero_slides.json",
+      "size": 1436,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "sections.json",
+      "size": 6742,
+      "status": "VERIFIED"
+    }
+  ],
+  "isVerified": true
+}
